@@ -75,13 +75,17 @@
     letter-spacing: 0.75px;
 }
 
-.btn:link, .btn:visited {
+.btn, .btn:link, .btn:visited {
     display: inline-block;
     text-decoration: none;
     font-size: 2rem;
     font-weight: 600;
     padding: 1.6rem 3.2rem;
     border-radius: 9px;
+
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
 
     /* Put transaction on original state */
     transition: all 0.3s;
@@ -106,6 +110,15 @@
 
     /* Trick to add border inside */
     box-shadow: inset 0 0 0 3px #fff;
+}
+
+
+.btn-form {
+    background-color: #45260a;
+    color: #fdf2e9;
+    align-self: end;
+    padding: 1.2rem;
+
 }
 
 .link:link,
