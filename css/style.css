@@ -495,7 +495,6 @@ body {
     border-radius: 11px;
 
     background-image: linear-gradient(to right bottom,#eb984e, #e67e22);
-    height: 50rem;
     overflow: hidden;
 }
 
@@ -553,3 +552,10 @@ body {
 .cta-form input::placeholder {
     color: #aaa;
 }
+
+.cta *:focus {
+    outline: none;
+    /* outline: 4px dotted #; */
+    /* outline-offset: 8px; */
+    box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+  }
