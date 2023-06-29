@@ -115,6 +115,7 @@
                     It makes sure you get all the nutrients and vitamins you need, no matter what diet you follow!
                 </p>
             </div>
+
             <div class="step-img-box">
                 <img src="/img/app/app-screen-1.png" class="step-img" 
                 alt="iPhone app prefrence selection screen"/> 
@@ -135,7 +136,6 @@
                     swap entire meals, or even add your own recipes.
                 </p>
             </div> 
-            </div>
 
                 <!-- STEP 3 -->
                 <div class="step-text-box">
@@ -148,6 +148,7 @@
                         You can change delivery schedule and address daily!
                     </p>
                 </div>
+                
             <div class="step-img-box">
                 <img src="/img/app/app-screen-3.png" class="step-img" 
                 alt="iPhone app delivering screen"/> 
@@ -209,8 +210,7 @@
             </div>
             
             <div class="diets">
-                <h3 class="heading-tertiary"> works with any diet</h3>
-            <div class="list">
+                <h3 class="heading-tertiary"> Works with any diet:</h3>
                 <ul class="list">
                     <li class="list-item"> <ion-icon class="list-icon" name="checkmark"></ion-icon>
                     <span>Vegetarian</span></li>
@@ -231,7 +231,6 @@
                     <li class="list-item"> <ion-icon class="list-icon" name="checkmark"></ion-icon>
                         <span>Kid-friendly</span></li>
                 </ul>
-                </div>
             </div>
             </div>
             <div class="container all-recipes">
@@ -472,20 +471,20 @@
                     Start eating well today. You can cancel or pause anytime. And the first meal is on us!
                 </p>
 
-                <form class="cta-form" action="#">
+                <form class="cta-form" name="sign-up" netlify>
                 <div>
                     <label for="full-name">Full Name</label>
-                    <input id="full-name" type="text" placeholder="your name" required />
+                    <input id="full-name" type="text" placeholder="your name" name="full-name" required />
                 </div>
 
                 <div>
                     <label for="email">Email address</label>
-                    <input id="email" type="email" placeholder="example@emil.com" required />
+                    <input id="email" type="email" placeholder="example@emil.com" name="email" required />
                 </div>
 
                 <div>       
                     <label for="select-where">Where did you heare from us</label>
-                    <select id="select-where" required>
+                    <select id="select-where" name="select-where" required>
                         <option value="friends">Please choose any one option:</option>
                         <option value="friends">Friends and family</option>
                         <option value="youtube">YouTube</option>
